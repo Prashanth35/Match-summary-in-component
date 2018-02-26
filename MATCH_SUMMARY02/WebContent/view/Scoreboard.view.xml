@@ -1,0 +1,486 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="bookmycric.results.A1.controller.Scoreboard"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+	<Page title="Title" id="idView2">
+		<content>
+
+			<IconTabBar id="idIconTabBarMulti" expanded="true"
+				class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter text="IND innings">
+
+						<Table id="idBatsmanTable">
+							<headerToolbar>
+								<Toolbar>
+									<content>
+
+										<ToolbarSpacer />
+
+									</content>
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column width="12em">
+									<Text text="BATSMEN" />
+								</Column>
+								<Column hAlign="End" width="10px">
+									<Text text="R" />
+								</Column>
+								<Column hAlign="End" width="10px">
+									<Text text="M" />
+								</Column>
+								<Column hAlign="End" width="10px">
+
+									<Text text="B" />
+								</Column>
+								<Column hAlign="End" width="10px">
+									<Text text="4S" />
+								</Column>
+								<Column hAlign="End" width="10px">
+									<Text text="6S" />
+								</Column>
+								<Column hAlign="End" width="3.5em">
+									<Text text="SR" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Extras" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="3 (b 1, lb 1, w 1)" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Total" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="150/5 (20 Overs, RR: 6.88)" />
+
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+
+						<Table id="idBowlingtb">
+							<headerToolbar>
+								<Toolbar>
+									<content>
+
+										<ToolbarSpacer />
+
+									</content>
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column width="12em">
+									<Text text="BOWLING" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="O" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="M" />
+								</Column>
+								<Column hAlign="End" width="1em">
+
+									<Text text="R" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="W" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="ECON" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="WD" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="NB" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+									</cells>
+								</ColumnListItem>
+
+
+							</items>
+						</Table>
+
+
+
+					</IconTabFilter>
+					<IconTabFilter text="SA innings">
+
+
+						<Table id="idBatsmanTable2">
+							<headerToolbar>
+								<Toolbar>
+									<content>
+
+										<ToolbarSpacer />
+
+									</content>
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column width="12em">
+									<Text text="BATSMEN" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="R" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="M" />
+								</Column>
+								<Column hAlign="End" width="1em">
+
+									<Text text="B" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="4S" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="6S" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="SR" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Kohli" />
+										<Text text="128" />
+										<Text text="120" />
+										<Text text="110" />
+										<Text text="15" />
+										<Text text="3" />
+										<Text text="101.00" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Extras" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="3 (b 1, lb 1, w 1)" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Total" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="" />
+										<Text text="150/5 (20 Overs, RR: 6.88)" />
+
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+
+						<Table id="idBowlingtb2">
+							<headerToolbar>
+								<Toolbar>
+									<content>
+
+										<ToolbarSpacer />
+
+									</content>
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column width="12em">
+									<Text text="BOWLING" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="O" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="M" />
+								</Column>
+								<Column hAlign="End" width="1em">
+
+									<Text text="R" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="W" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="ECON" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="WD" />
+								</Column>
+								<Column hAlign="End" width="1em">
+									<Text text="NB" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="B.Kumar" />
+										<Text text="10" />
+										<Text text="2" />
+										<Text text="40" />
+										<Text text="4" />
+										<Text text="8.10" />
+										<Text text="4" />
+										<Text text="3" />
+									</cells>
+								</ColumnListItem>
+
+
+							</items>
+						</Table>
+
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+
+		</content>
+	</Page>
+
+</core:View>

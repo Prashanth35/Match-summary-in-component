@@ -1,0 +1,35 @@
+.blkrow1{
+	background-color:white;
+	width:300px;
+	margin-right:20px;
+}
+.blkrow12{
+	background-color:white;
+	width:300px;
+	
+}
+.secondTile{
+padding-top:10px;
+}
+
+.linkgap{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+
+ 
+
+
+.tileborder{
+
+  border-radius: 20px 20px 20px 20px!important;
+
+  -moz-border-radius: 20px 20px 20px 20px!important;
+
+  -webkit-border-radius: 20px 20px 20px 20px!important;
+
+  border: 2px solid #b8b6b8!important;
+
+    }

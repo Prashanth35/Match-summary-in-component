@@ -1,0 +1,35 @@
+{
+  "_version" : "1.0.0",
+  "start_url" : "index.html",
+  "sap.app" : {
+    "id" : "bookmycric.results.A1"
+    
+  },
+  "sap.ui5" : {
+      "rootView" : "bookmycric.results.A1.view.App",
+     
+      
+      "routing" : {
+            "config" : {
+               "routerClass" : "sap.m.routing.Router",
+               "viewType" : "XML",
+               "viewPath" : "bookmycric.results.A1.view",
+               "controlId" : "idApp",
+               "controlAggregation" : "pages"
+            },
+            "routes" : [
+                   {
+                   "pattern" : "",
+                   "name" : "Results",
+                   "viewName" : "Results"                   
+                   },
+                   {
+                    "pattern" : "toscoreboard",
+                    "name" : "scoreboard",
+                    "viewName" : "Scoreboard"                    
+                   }
+                               
+            ]
+      }
+  }
+  }
